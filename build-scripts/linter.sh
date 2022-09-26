@@ -2,4 +2,4 @@
 
 source venv/bin/activate
 
-flake8 "$1"/"$1" "$1"/test
+flake8 "$1"

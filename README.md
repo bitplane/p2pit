@@ -14,5 +14,5 @@ to discover peers who are on the same network as you.
 	code .
 
 	# or just run the demo app
-	make demo
+	# make demo -- no demo yet!
 

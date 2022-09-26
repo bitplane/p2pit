@@ -1,13 +1,14 @@
 [project]
-name = "p2pit"
+name = "p2pit_chat_example"
 version = "0.1.0"
-description = "Make any software p2p"
+description = "Example p2p chat app using p2pit"
 authors = [
     {name = "Gareth Davidson", email = "gaz@bitplane.net"},
 ]
 readme = "README.md"
 
 dependencies = [
+    # no relative paths as dependencies 8====D ~ ~ ~~ ~ 
 ]
 
 [project.optional-dependencies]
