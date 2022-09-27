@@ -8,7 +8,8 @@ authors = [
 readme = "README.md"
 
 dependencies = [
-    # relative paths not allowed as dependencies 8====D ~ ~ ~~ ~ 
+    "oslo_utils",
+    # relative paths not allowed as dependencies 8====D ~ ~ ~~ ~
 ]
 
 [project.optional-dependencies]
