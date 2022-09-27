@@ -30,7 +30,3 @@ def main(args: dict = argv[1:]):
     chat = Chat(bootstrap=args["bootstrap"])
     chat.connect()
     chat.run_forever()
-
-
-if __name__ == "__main__":
-    main()

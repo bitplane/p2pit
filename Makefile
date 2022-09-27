@@ -28,8 +28,11 @@ install: venv/.installed
 
 venv: venv/bin/activate
 
-dev: venv install ./.git/hooks/pre-commit
+dev: venv install .git/hooks/pre-commit
 
+
+update-pre-commit: venv install build-scripts/update-pre-commit-rules.sh
+	build-scripts/update-pre-commit-rules.sh
 
 
 # note: non-phony requirements can't rely on phony ones
