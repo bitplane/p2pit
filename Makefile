@@ -41,5 +41,5 @@ venv/.installed: venv/bin/activate */pyproject.toml build-scripts/install.sh
 venv/bin/activate: build-scripts/venv.sh
 	build-scripts/venv.sh
 
-.git/hooks/pre-commit: build-scripts/pre-commit-hook.sh build-scripts/install-pre-commit-hook.sh
+.git/hooks/pre-commit: build-scripts/install-pre-commit-hook.sh
 	build-scripts/install-pre-commit-hook.sh

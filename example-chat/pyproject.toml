@@ -8,7 +8,7 @@ authors = [
 readme = "README.md"
 
 dependencies = [
-    # no relative paths as dependencies 8====D ~ ~ ~~ ~ 
+    # relative paths not allowed as dependencies 8====D ~ ~ ~~ ~ 
 ]
 
 [project.optional-dependencies]
@@ -17,6 +17,7 @@ dev = [
     "black",
     "isort",
 	"pytest",
+    "pre-commit",
 ]
 
 [tool.pytest.ini_options]
